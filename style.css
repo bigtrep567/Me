@@ -1,0 +1,79 @@
+* {
+    align-content: center;
+    text-align: center;
+}
+
+body {
+    background-image: url(green-staircase.webp);
+}
+
+img.pp {
+    border-radius: 180px;
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width:800px) {
+    img {
+        border-radius: 180px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:1289px) {
+    body {
+        background-image: url(sss.jpg)
+    }
+}
+
+@media (min-width: 1290px) and (max-width: 1978px) {
+    body {
+        background-image: url(sss.jpg);
+    }
+  }
+
+
+h2 {
+    font-size: 18px;
+}
+
+body {
+    background-color: sandybrown;
+    font-family: 'Trebuchet MS';
+    color: bisque;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.logo > a {
+    background-color: sienna;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: cursive;
+    color: burlywood;
+    width: 250px;
+}  
+
+a:hover {
+    color: chocolate;
+    background-color: saddlebrown;
+}
+
+.logo > a > img {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  right: 20px;
+}
